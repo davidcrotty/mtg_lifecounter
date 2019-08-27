@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Container(
-              color: Colors.blue,
+              child: Image.asset("green.jpg", fit: BoxFit.cover,),
             ),
           ),
           Divider(
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           ),
           Expanded(
             child: Container(
-              color: Colors.green,
+              child: Image.asset("red.jpg", fit: BoxFit.cover,),
             ),
           )
         ],
